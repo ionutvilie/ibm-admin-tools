@@ -1,6 +1,6 @@
 #!/usr/bin/ksh
 #                                          
-#   Script     : display qm objects
+#   Script     : display IBM MQ objects
 #                                         
 #   Authors    : ionutvilie 
 #              :
