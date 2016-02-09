@@ -1,2 +1,5 @@
 # ibm_mq_tools
-middleware administration tolls 
+Middleware administration tolls 
+
+This is work in progres. 
+For now it can be used as example.
