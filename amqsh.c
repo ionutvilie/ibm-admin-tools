@@ -165,6 +165,8 @@ int main(int argc, char *argv[])
                         &compCode, &reason);
        CheckCallResult("Get depth", compCode, reason); 
 	   
+	   if (!strstr(qName, "SYSTEM") && !strstr(qName, "MQAI")) {
+	   
 		switch(qType) {
 			case 1 : 
 				qTypePrint      = "LOCAL";
@@ -276,7 +278,7 @@ int main(int argc, char *argv[])
 
 		}
 	   
-	   
+	   }
   
 
      } 
